@@ -1,0 +1,324 @@
+header{
+  background: black;
+  color: black;
+  padding: 0px 0px 0px 0px ;
+  text-align: center;
+}
+
+nav ul{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-color:black;
+  color: white;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}
+
+nav ul img{
+  cursor: pointer;
+  justify-content: flex-end;
+}
+
+.nav-card{
+  font-family: "Shippori Antique", sans-serif;
+  display: none;
+}
+
+.carrito nav button{
+  display: none;
+}
+
+.nav-card li{
+  font-family: "Shippori Antique", sans-serif;
+  color: black;
+  list-style: none;
+  padding: 10px 0px 10px 0px;
+  font-weight:bold;
+}
+
+.carrito:hover .buy-card button{
+  font-family: "Shippori Antique", sans-serif;
+  display: block;
+  width: 90%;
+  padding: 1rem;
+  margin: 10px auto;
+  background-color: white;
+  border: solid thin #e1e1e1;
+  color: #494848;
+  cursor: pointer;
+}
+
+.carrito:hover .buy-card button:hover{
+  background-color: pink;
+  font-family: "Shippori Antique", sans-serif;
+  border: solid thin #494848;
+  transition: all .4s;
+}
+
+.carrito:hover .buy-card{  
+  font-family: "Shippori Antique", sans-serif;
+  width: 380px;
+  height: 380px;
+  position: absolute;
+  right: 0;
+  background-color:#F5E4EC;
+  color: black;
+}
+
+.carrito:hover .nav-card{
+  font-family: "Shippori Antique", sans-serif;
+  background-color: white;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8px 0 8px;
+  border-bottom: solid thin #e1e1e1;
+}
+
+.video{
+  background-color: #69082A;
+}
+
+.solo{
+  justify-content: space-around;
+  padding: 0px 0px 10px 0px ;
+}
+
+nav li{
+  display: inline-flex;
+  margin: 0 20px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  width: 150px;
+}
+
+nav a:hover{
+ color: black;
+ background-color: pink;
+}
+
+body{
+  font-family: "Shippori Antique", sans-serif;
+  background: #FFA7C6;
+}
+
+header h1{
+  font-family: "Shippori Antique", sans-serif;
+  background-color: pink;
+  font-size: 18px;
+}
+
+header h2{
+  cursor: pointer;
+ padding: 10px 10px 0px 10px;
+ display: flex;
+ color: white;
+ font-size: 15px;
+ align-items: center;
+ justify-content: center;
+}
+}
+
+header nav{
+font-family: "Shippori Antique", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+main{
+  font-family: "Shippori Antique", sans-serif;
+   max-width: 1000px;
+   margin: 20px auto;
+   padding: 0 20px;
+   background-color: #FFA7C6;
+}
+
+h3{
+text-align: center;
+padding: 10px;
+}
+
+#albumsolos{
+  font-size: 30px ;
+}
+
+#solos{
+   background-color: #69082A;
+  color: white;
+}
+
+#solos:hover{
+  background-color: pink;
+  color: white ;
+}
+
+.todoss-productoss{
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} 
+
+.todoss-productoss{
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*Para hacer referencia a las clases debemos asignar un punto(.)
+al inicio del nombre de la clase*/
+.productoosss{
+  text-align: center;
+    width: 30%;
+    background-color: #fff;
+    padding: 20px 5px 12px 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    transition: box-shadow 0.8s ease-in-out;
+    border-radius: 13px;
+}
+
+.productoosss:Hover{
+  box-shadow: 0 0 30px rgba(100, 0, 0, 0.8);
+}
+
+.productoosss img{
+  width: 220px;
+  height: 220px;
+  display: block ;
+  transition: transform 0.3s ease-in-out;
+  margin: 0 auto 10px;
+}
+
+.productoosss:hover img{
+  transform: scale(1.1);
+}
+
+.productoosss button{
+  display: flex;
+  margin: 15px auto;
+  width: 70%;
+  justify-content: space-around;
+  background-color: #FF367C;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  transition: backround-color 0.3s ease-in-out;
+  border-radius: 15px;
+}
+
+.productoosss button:hover{
+  background-color: #69082A;
+}
+
+footer{
+  background-color: black;
+  color: pink;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+  font-family: "Shippori Antique";
+  font-size: 18px;
+
+}
+
+.links-informaticoss{
+  width: 400px;
+}
+
+
+.links-informaticoss ul{
+  list-style: none;
+  margin: 10px 0px 0px 0px;
+  padding: 0;
+}
+
+.links-informaticoss li a{
+  text-decoration: none;
+  color: pink;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.redes-socialess{
+  width: 300px;
+}
+
+.redes-socialess img{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.redes-socialess img{
+  background-color: black;
+}
+.redes-socialess li{
+  display: inline-block;
+  margin-right: 10px;
+  back
+}
+
+.redes-socialess img:hover{
+  transform: scale(1.1);
+}
+
+.info-contacto{
+  width: 200px;
+  text-align: right;
+  font-size:16px ;
+}
+
+.img{
+  align-content: rigth;
+
+}
+
+.container{
+  background-color: black;
+  color: white;
+  text-align: right;
+  align-content: rigth;
+  padding: 0px 0px 10px 0px;
+}
+
+input{
+  background-color: #F6E4F6;
+  width: 280px;
+  padding: 10px;
+  padding-right: 35px;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+  font-size: 13px;
+}
+
+.container button{
+  background-color: pink;
+  padding: 7px 7px;
+  border: 0;
+  top: 0;
+  margin: 0px 60px 0px 0px;
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.container img{
+  width: 24px;
+  height: 22px;
+}
+
+button:hover{
+  background-color: white;
+}
